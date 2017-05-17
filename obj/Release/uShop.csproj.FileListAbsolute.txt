@@ -1,0 +1,11 @@
+C:\Users\tolik\Source\Repos\uShop\bin\Release\Libraries\I18N.dll
+C:\Users\tolik\Source\Repos\uShop\bin\Release\Libraries\I18N.West.dll
+C:\Users\tolik\Source\Repos\uShop\bin\Release\Libraries\MySql.Data.dll
+C:\Users\tolik\Source\Repos\uShop\bin\Release\Libraries\System.Data.dll
+C:\Users\tolik\Source\Repos\uShop\bin\Release\Libraries\System.Management.dll
+C:\Users\tolik\Source\Repos\uShop\bin\Release\Libraries\System.Transactions.dll
+C:\Users\tolik\Source\Repos\uShop\bin\Release\uShop.dll
+C:\Users\tolik\Source\Repos\uShop\bin\Release\uShop.pdb
+C:\Users\tolik\Source\Repos\uShop\obj\Release\uShop.csprojResolveAssemblyReference.cache
+C:\Users\tolik\Source\Repos\uShop\obj\Release\uShop.dll
+C:\Users\tolik\Source\Repos\uShop\obj\Release\uShop.pdb

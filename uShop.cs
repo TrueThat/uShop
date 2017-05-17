@@ -14,6 +14,7 @@ using UnityEngine;
 using fr34kyn01535.Uconomy;
 using Steamworks;
 using Rocket.Core;
+using Logger = Rocket.Core.Logging;
 
 namespace uShop
 {
@@ -217,10 +218,11 @@ namespace uShop
         
         protected override void Load()
         {
-            Rocket.Core.Logging.Logger.Log("");
+            Logger.Logger.Log("uShop - Loading . . .");
             uShop.Instance = this;
             this.ShopDB = new DatabaseMgr();
-            Rocket.Core.Logging.Logger.Log("");
+            Logger.Logger.Log("uShop - Loaded!");
+            Logger.Logger.Log("Reborn by TrueThat , ZaupShop Credits to Zamirathe :)");
         }
 
         public delegate void PlayerShopBuy(UnturnedPlayer player, decimal amt, byte items, ushort item, string type="item");

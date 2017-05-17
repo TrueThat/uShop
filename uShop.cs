@@ -215,13 +215,15 @@ namespace uShop
                 };
             }
         }
-        
+
+        public static string[] version = { "1.0.0.0","Alpha" };
+
         protected override void Load()
-        {
+        { 
             Logger.Logger.Log("uShop - Loading . . .");
             uShop.Instance = this;
             this.ShopDB = new DatabaseMgr();
-            Logger.Logger.Log("uShop - Loaded!");
+            Logger.Logger.Log("uShop - Loaded! Version: | " + version[0] + " | ; Phase: | " + version[1] + " | ;");
             Logger.Logger.Log("Reborn by TrueThat , ZaupShop Credits to Zamirathe :)");
         }
 
